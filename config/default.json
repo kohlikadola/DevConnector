@@ -1,4 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://kohlikadola:kohlikadola25072003@devconnector.8l6qg38.mongodb.net/",
+  "mongoURI": "YOUR_MONGODB_URI",
   "jwtSecret":"mysecrettoken"
 }
