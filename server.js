@@ -5,7 +5,7 @@ const app=express();
 //CONNECTDB
 connectDB();
 app.use(express.json({extended : false}));
-app.get('/',(req,res)=> res.send('API UP!! I miss you ishi'))
+app.get('/',(req,res)=> res.send('API UP!!'))
 const PORT=process.env.PORT || 5000;
 //Definen rooutes
 app.use('/api/users',require('./routes/api/users'));
